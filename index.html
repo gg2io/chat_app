@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Interactive Chat App</title>
+  <title>Chat App</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
   <div class="chat-container">
@@ -18,8 +19,11 @@
     <main class="chat-area">
       <div class="messages" id="messages"></div>
       <div class="new-message">
-        <textarea id="messageInput" placeholder="Type a message..."></textarea>
-        <button id="sendBtn" class="send-button">Send</button>
+        <textarea id="messageInput" placeholder="Type a message...">ok</textarea>
+        <button id="sendBtn" class="send-button">
+          Send
+          <span class="material-icons">send</span>
+        </button>
       </div>
     </main>
     

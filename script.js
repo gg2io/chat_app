@@ -5,7 +5,7 @@ const conversations = {
     Luke: [
       { sender: 'Luke', text: 'morning' },
       { sender: 'You',  text: 'morning, I need to talk about the new server drives' },
-      { sender: 'Luke', text: 'the nvmes for the server?' },
+      { sender: 'Luke', text: 'the names for the server?' },
       { sender: 'You',  text: 'yes' },
       { sender: 'Luke', text: 'schedule a meeting after stand-up' },
     ],
